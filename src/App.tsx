@@ -1,4 +1,4 @@
-import { FaWhatsapp, FaInstagram, FaFacebook, FaTiktok } from 'react-icons/fa';
+import { FaWhatsapp, FaInstagram, FaFacebook, FaTiktok, FaBook, FaChalkboardTeacher } from 'react-icons/fa';
 import Card from './components/Card';
 import Profile from './components/Profile';
 import SocialButton from './components/SocialButton';
@@ -37,6 +37,20 @@ const userInfo = {
       label: 'TikTok',
       url: 'https://www.tiktok.com/@denir.ferreira?_r=1&_t=ZM-92HGK2u9wLM',
       icon: <FaTiktok />,
+      color: '#dbdadb'
+    },
+    {
+      id: 'ebook',
+      label: 'E-Book',
+      url: 'https://p.eduzz.com/2923626',
+      icon: <FaBook />,
+      color: '#dbdadb'
+    },
+    {
+      id: 'mentoria',
+      label: 'Mentoria',
+      url: 'https://chk.eduzz.com/40Q3J4730B',
+      icon: <FaChalkboardTeacher />,
       color: '#dbdadb'
     }
   ]
