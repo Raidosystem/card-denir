@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import denirImg from '../imgs/denir-img.jpeg';
 
 interface ProfileProps {
   name: string;
@@ -35,7 +36,7 @@ const Profile = ({ name, description, imageUrl }: ProfileProps) => {
         }}
       >
         <img
-          src={imageUrl || '/card/denir-img.jpeg'}
+          src={imageUrl || denirImg}
           alt={name}
           style={{ 
             width: '100%', 
