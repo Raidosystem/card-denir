@@ -1,4 +1,4 @@
-import { FaWhatsapp, FaInstagram, FaFacebook, FaTiktok, FaBook, FaChalkboardTeacher } from 'react-icons/fa';
+import { FaWhatsapp, FaInstagram, FaFacebook, FaTiktok, FaBook, FaChalkboardTeacher, FaCompass } from 'react-icons/fa';
 import Card from './components/Card';
 import Profile from './components/Profile';
 import SocialButton from './components/SocialButton';
@@ -51,6 +51,13 @@ const userInfo = {
       label: 'Mentoria',
       url: 'https://chk.eduzz.com/40Q3J4730B',
       icon: <FaChalkboardTeacher />,
+      color: '#dbdadb'
+    },
+    {
+      id: 'direcao-clareza-acao',
+      label: 'Direção, clareza e ação',
+      url: 'https://sun.eduzz.com/39YDK4J39O',
+      icon: <FaCompass />,
       color: '#dbdadb'
     }
   ]
